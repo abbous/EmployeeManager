@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{56309cfe-28a0-4c49-8f0d-bc386951755b}"
+       Name="TrainingCetificationDate"
+       DisplayName="Training Cetification Date"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

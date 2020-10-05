@@ -1,0 +1,225 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{491C45D2-1170-4C92-825A-03A2636FFB1F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Employee</RootNamespace>
+    <AssemblyName>Employee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{1b3bd8fc-749d-41da-8c95-5efa03556bb3}</AppFeaturePartId>
+    <WspPartId>{349c87ed-7ced-4809-b77d-959168a180fe}</WspPartId>
+    <WorkflowPartId>{5707fab3-9f20-49aa-a7f6-fd697d722fee}</WorkflowPartId>
+    <CspkgPartId>{0b8e17e1-318c-44f2-85a9-2518c0eaf96f}</CspkgPartId>
+    <SqlPackagePartId>{3bef7643-e330-4e6d-939a-d0bbfaa2e355}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Columns\AnnualSalary\Elements.xml" />
+    <Content Include="Columns\Bank RIB\Elements.xml" />
+    <Content Include="Columns\Children\Elements.xml" />
+    <Content Include="Columns\CNSS\Elements.xml" />
+    <Content Include="Columns\EducationalLevel\Elements.xml" />
+    <Content Include="Columns\GovernmentID\Elements.xml" />
+    <Content Include="Columns\HomeAddress\Elements.xml" />
+    <Content Include="Columns\Company\Elements.xml" />
+    <Content Include="Columns\EmploymentType\Elements.xml" />
+    <Content Include="Columns\EndDate\Elements.xml" />
+    <Content Include="Columns\Expertise\Elements.xml" />
+    <Content Include="Columns\PriorRating\Elements.xml" />
+    <Content Include="Columns\Tech\Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Columns\FirstName\Elements.xml" />
+    <Content Include="Columns\Group\Elements.xml" />
+    <Content Include="Columns\GS\Elements.xml" />
+    <Content Include="Columns\JobTitleEn\Elements.xml" />
+    <Content Include="Columns\JobTitleFr\Elements.xml" />
+    <Content Include="Columns\LaborCategory\Elements.xml" />
+    <Content Include="List Content\Elements.xml" />
+    <Content Include="Columns\AssignedOffice\Elements.xml" />
+    <Content Include="ListEmployee\Elements.xml" />
+    <Content Include="ListEmployee\ListEmployeeInstance\Elements.xml" />
+    <Content Include="ListEmployee\Schema.xml" />
+    <Content Include="Pages\EmployeList.aspx" />
+    <Content Include="Columns\PTOBalance\Elements.xml" />
+    <Content Include="Scripts\jquery-3.5.0.js" />
+    <Content Include="Scripts\jquery-3.5.0.min.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.min.js" />
+    <Content Include="Columns\LastName\Elements.xml" />
+    <Content Include="Columns\SickBalance\Elements.xml" />
+    <Content Include="Columns\StartDate\Elements.xml" />
+    <Content Include="Columns\TADAEEMSupervisor\Elements.xml" />
+    <Content Include="Columns\WorkPhone\Elements.xml" />
+    <None Include="Columns\AnnualSalary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{79bfd484-0816-4135-a25a-1647148b076c}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Bank RIB\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ac0227cd-fa25-413e-a9b9-a89b45a429c7}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Children\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{022ffaac-9e89-4d57-96da-e3633d9eb864}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\CNSS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9cf7b7dc-856a-46b4-9f24-8253c3bd9a45}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\EducationalLevel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a59bde0c-ceaa-454c-8824-8fe549cf82c1}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\GovernmentID\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{71b50512-1690-4a40-8374-f12062ecfed4}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\HomeAddress\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a91fd859-2b4f-4a4d-a0a0-cf296a90bb7e}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Company\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{77dd6629-e4d7-4bcb-a229-a6542d1869b7}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\EmploymentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d6f1b394-ad98-43fa-bf4f-a10a40687a85}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\EndDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bb0494e7-2cf4-4af4-92b5-d67fe6d796d7}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Expertise\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{922eded7-2ec8-41d9-9d7d-c90fb27d1f7d}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\PriorRating\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{25915c39-8baf-4704-9e40-83b648a43512}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Tech\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffa079cc-2143-4f62-811b-69a87f7ae099}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{3ac73823-27ff-4c74-8016-a6ddbef8b6e0}</FeatureId>
+    </None>
+    <None Include="Columns\FirstName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8bbffc6d-9345-4090-b7be-0782ec2b5e18}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\Group\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9aa8f0ec-a365-441e-aa29-bb7e8c1aa3de}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\GS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56ed3c88-c03d-43ab-87f3-3441221383ee}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\JobTitleEn\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{81b7cfc1-d9d7-496d-8698-f789617a8463}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\JobTitleFr\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{873f5124-ac78-46ff-af91-c6520cdb8379}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\LaborCategory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c3ccf6e0-b904-44fe-8139-ca0a9582983d}</SharePointProjectItemId>
+    </None>
+    <None Include="List Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9dc64148-5c23-4b6a-bd13-2bb2eb88f376}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\AssignedOffice\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{38bac07d-2b01-4467-9099-83c46dcf26b7}</SharePointProjectItemId>
+    </None>
+    <None Include="ListEmployee\ListEmployeeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{032e4077-f658-4ee9-8d92-e2503ffb302d}</SharePointProjectItemId>
+    </None>
+    <None Include="ListEmployee\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d31d1de7-46c7-48e7-902c-7fcc9eb5d190}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{05f04115-5d8e-4dbf-baa8-1edeead35204}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Columns\LastName\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{36baeb22-5603-47f6-9ef1-b18216e3d96f}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\PTOBalance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b8674864-aea3-4198-be5a-3e7cd1da4613}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\SickBalance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5bb5cda4-346d-4dc2-95ab-4076cbfb40e9}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\StartDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bca024cb-562b-4fc6-b8f4-9d08430f2d33}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\TADAEEMSupervisor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3bd7f642-96dc-4537-8d06-410c93b928aa}</SharePointProjectItemId>
+    </None>
+    <None Include="Columns\WorkPhone\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0fcfe88a-7f33-4b53-b34d-24061d01571f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-3.5.0.min.map" />
+    <None Include="Scripts\jquery-3.5.0.slim.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3bef7643-e330-4e6d-939a-d0bbfaa2e355}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f36fbed7-fad2-48c0-9fea-4a118ebefb5a}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b2a3d99f-5985-4342-8862-1ca2554748d5}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{70df29f8-8fdb-4697-96d0-2ab1349d545d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

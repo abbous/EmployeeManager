@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7ad2e810-fa26-4639-9ff2-1e28f80ed5f2}"
+       Name="EmergencyContactNumber"
+       DisplayName="Emergency Contact Number"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

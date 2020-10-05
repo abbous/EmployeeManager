@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="ListEmployee" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ListEmployee" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01007927a041b14e45edaac7be27f60a4a1c" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{03293484-0725-4dfd-8219-0fd0b72d8db3}" Name="FirstName" /><FieldRef ID="{a09452e5-f8d5-44fb-b3b1-b48be89a62fe}" Name="LastName" /><FieldRef ID="{e005cf84-58fe-4c09-a241-ba6cea74efff}" Name="GovernmentID" /><FieldRef ID="{f535dccc-6e0c-4b19-b418-e975531f898e}" Name="Company" /><FieldRef ID="{f0816549-7148-4e36-91c1-dd361aeb664d}" Name="LaborCategory" /><FieldRef ID="{9ce24c62-f4ad-41f2-ad68-f9fff02f46b4}" Name="EmploymentType" /><FieldRef ID="{671984e9-b37e-4767-8caa-40f57ab4f244}" Name="StartDate" /><FieldRef ID="{f77ebf9b-c141-4a10-88c0-d95d57489ea4}" Name="EndDate" /><FieldRef ID="{623e6021-f634-4904-b420-a1f43dd9a23f}" Name="JobTitleEn" /><FieldRef ID="{03c5c31e-4701-4af8-a07c-694459e01047}" Name="Group" /><FieldRef ID="{36c9f92a-9978-4fe9-b815-5370b0bc5313}" Name="Expertise" /><FieldRef ID="{f2558496-a859-4b94-beba-19436f5ead08}" Name="AnnualSalary" /><FieldRef ID="{5daba40a-3a72-4856-b4fb-a759f9541c6a}" Name="AssignedOffice" /><FieldRef ID="{985cbfe1-85a0-4978-8622-1eb7be31acf5}" Name="TADAEEMSupervisor" /><FieldRef ID="{c3963f14-7233-453c-9ddf-39e3e35dee70}" Name="JobTitleFr" /><FieldRef ID="{6e7e3782-ae13-4026-b4e7-bfbc66e0f22b}" Name="GS" /><FieldRef ID="{34a4f221-5f8a-42e7-8deb-b515b9987803}" Name="WorkPhone" /><FieldRef ID="{3f868921-21d1-4478-ae8f-1f85f369112e}" Name="PTOBalance" /><FieldRef ID="{946d0629-3528-40ee-a931-cbde5369a659}" Name="SickBalance" /><FieldRef ID="{a4470e15-5224-4c6d-8d7b-ad1f7dfa14ce}" Name="CNSS" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{03293484-0725-4dfd-8219-0fd0b72d8db3}" Name="FirstName" DisplayName="First Name" Type="Text" Required="TRUE" Group="Custom Site Columns"></Field><Field ID="{a09452e5-f8d5-44fb-b3b1-b48be89a62fe}" Name="LastName" DisplayName="Last Name" Type="Text" Required="TRUE" Group="Custom Site Columns"></Field><Field ID="{e005cf84-58fe-4c09-a241-ba6cea74efff}" Name="GovernmentID" DisplayName="Government ID" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{f535dccc-6e0c-4b19-b418-e975531f898e}" Name="Company" DisplayName="Company" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{f0816549-7148-4e36-91c1-dd361aeb664d}" Name="LaborCategory" DisplayName="Labor Category" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{9ce24c62-f4ad-41f2-ad68-f9fff02f46b4}" Name="EmploymentType" DisplayName="Employment Type" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{671984e9-b37e-4767-8caa-40f57ab4f244}" Name="StartDate" DisplayName="Start Date" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{f77ebf9b-c141-4a10-88c0-d95d57489ea4}" Name="EndDate" DisplayName="End Date" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{623e6021-f634-4904-b420-a1f43dd9a23f}" Name="JobTitleEn" DisplayName="Job Title En" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{03c5c31e-4701-4af8-a07c-694459e01047}" Name="Group" DisplayName="Group" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{36c9f92a-9978-4fe9-b815-5370b0bc5313}" Name="Expertise" DisplayName="Expertise" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{f2558496-a859-4b94-beba-19436f5ead08}" Name="AnnualSalary" DisplayName="Annual Salary" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{5daba40a-3a72-4856-b4fb-a759f9541c6a}" Name="AssignedOffice" DisplayName="Assigned Office" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{985cbfe1-85a0-4978-8622-1eb7be31acf5}" Name="TADAEEMSupervisor" DisplayName="TADAEEM Supervisor" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{c3963f14-7233-453c-9ddf-39e3e35dee70}" Name="JobTitleFr" DisplayName="Job Title Fr" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{6e7e3782-ae13-4026-b4e7-bfbc66e0f22b}" Name="GS" DisplayName="GS" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{34a4f221-5f8a-42e7-8deb-b515b9987803}" Name="WorkPhone" DisplayName="Work Phone" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{3f868921-21d1-4478-ae8f-1f85f369112e}" Name="PTOBalance" DisplayName="PTO Balance" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{946d0629-3528-40ee-a931-cbde5369a659}" Name="SickBalance" DisplayName="Sick Balance" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{a4470e15-5224-4c6d-8d7b-ad1f7dfa14ce}" Name="CNSS" DisplayName="CNSS" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="FirstName" /><FieldRef Name="LastName" /><FieldRef Name="GovernmentID" /><FieldRef Name="Company" /><FieldRef Name="LaborCategory" /><FieldRef Name="EmploymentType" /><FieldRef Name="StartDate" /><FieldRef Name="EndDate" /><FieldRef Name="JobTitleEn" /><FieldRef Name="Group" /><FieldRef Name="Expertise" /><FieldRef Name="AnnualSalary" /><FieldRef Name="AssignedOffice" /><FieldRef Name="TADAEEMSupervisor" /><FieldRef Name="JobTitleFr" /><FieldRef Name="GS" /><FieldRef Name="WorkPhone" /><FieldRef Name="PTOBalance" /><FieldRef Name="SickBalance" /><FieldRef Name="CNSS" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

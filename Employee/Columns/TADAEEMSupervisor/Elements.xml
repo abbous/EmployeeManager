@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{985cbfe1-85a0-4978-8622-1eb7be31acf5}"
+       Name="TADAEEMSupervisor"
+       DisplayName="TADAEEM Supervisor"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

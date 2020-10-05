@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100A39B37D6ADCC441987FC3B984DB268C6" Name="List Content" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{f2558496-a859-4b94-beba-19436f5ead08}" DisplayName="Annual Salary" Required="FALSE" Name="AnnualSalary" />
+      <FieldRef ID="{5daba40a-3a72-4856-b4fb-a759f9541c6a}" DisplayName="Assigned Office" Required="FALSE" Name="AssignedOffice" />
+      <FieldRef ID="{0f3edfca-85ce-4b80-8d7c-7544ae56f5d0}" DisplayName="Bank RIB" Required="FALSE" Name="Bank RIB" />
+      <FieldRef ID="{970621b2-693b-4c85-a8d8-8a01d56e9874}" DisplayName="Children" Required="FALSE" Name="Children" />
+      <FieldRef ID="{a4470e15-5224-4c6d-8d7b-ad1f7dfa14ce}" DisplayName="CNSS" Required="FALSE" Name="CNSS" />
+      <FieldRef ID="{b798392c-95aa-4a28-8f3b-f1e4b774ef2d}" DisplayName="Educational Level" Required="FALSE" Name="EducationalLevel" />
+      <FieldRef ID="{9ce24c62-f4ad-41f2-ad68-f9fff02f46b4}" DisplayName="Employment Type" Required="FALSE" Name="EmploymentType" />
+      <FieldRef ID="{f77ebf9b-c141-4a10-88c0-d95d57489ea4}" DisplayName="End Date" Required="FALSE" Name="EndDate" />
+      <FieldRef ID="{36c9f92a-9978-4fe9-b815-5370b0bc5313}" DisplayName="Expertise" Required="FALSE" Name="Expertise" />
+      <FieldRef ID="{03293484-0725-4dfd-8219-0fd0b72d8db3}" DisplayName="First Name" Required="FALSE" Name="FirstName" />
+      <FieldRef ID="{e005cf84-58fe-4c09-a241-ba6cea74efff}" DisplayName="Government ID" Required="FALSE" Name="GovernmentID" />
+      <FieldRef ID="{03c5c31e-4701-4af8-a07c-694459e01047}" DisplayName="Group" Required="FALSE" Name="Group" />
+      <FieldRef ID="{6e7e3782-ae13-4026-b4e7-bfbc66e0f22b}" DisplayName="GS" Required="FALSE" Name="GS" />
+      <FieldRef ID="{78eb6c06-bbad-41e3-94c3-51481e8b9e89}" DisplayName="Home Address" Required="FALSE" Name="HomeAddress" />
+      <FieldRef ID="{623e6021-f634-4904-b420-a1f43dd9a23f}" DisplayName="Job Title En" Required="FALSE" Name="JobTitleEn" />
+      <FieldRef ID="{c3963f14-7233-453c-9ddf-39e3e35dee70}" DisplayName="Job Title Fr" Required="FALSE" Name="JobTitleFr" />
+      <FieldRef ID="{f0816549-7148-4e36-91c1-dd361aeb664d}" DisplayName="Labor Category" Required="FALSE" Name="LaborCategory" />
+      <FieldRef ID="{a09452e5-f8d5-44fb-b3b1-b48be89a62fe}" DisplayName="Last Name" Required="FALSE" Name="LastName" />
+      <FieldRef ID="{825f4f67-e8d1-4f8c-80be-63b1ef92c84a}" DisplayName="Prior Rating" Required="FALSE" Name="PriorRating" />
+      <FieldRef ID="{3f868921-21d1-4478-ae8f-1f85f369112e}" DisplayName="PTO Balance" Required="FALSE" Name="PTOBalance" />
+      <FieldRef ID="{946d0629-3528-40ee-a931-cbde5369a659}" DisplayName="Sick Balance" Required="FALSE" Name="SickBalance" />
+      <FieldRef ID="{671984e9-b37e-4767-8caa-40f57ab4f244}" DisplayName="Start Date" Required="FALSE" Name="StartDate" />
+      <FieldRef ID="{985cbfe1-85a0-4978-8622-1eb7be31acf5}" DisplayName="TADAEEM Supervisor" Required="FALSE" Name="TADAEEMSupervisor" />
+      <FieldRef ID="{3d61a175-fae4-4e04-a0e8-6bd86c3ee03f}" DisplayName="Tech" Required="FALSE" Name="Tech" />
+      <FieldRef ID="{34a4f221-5f8a-42e7-8deb-b515b9987803}" DisplayName="Work Phone" Required="FALSE" Name="WorkPhone" />
+      <FieldRef ID="{f535dccc-6e0c-4b19-b418-e975531f898e}" DisplayName="Company" Required="FALSE" Name="Company" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

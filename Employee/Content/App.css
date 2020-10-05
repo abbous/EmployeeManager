@@ -1,0 +1,14 @@
+﻿/* Place custom styles below */
+
+
+p {
+    color: green;
+}
+.ms-siteicon-img {
+    display: none;
+    !important;
+}
+
+table{
+    text-align:center
+}
